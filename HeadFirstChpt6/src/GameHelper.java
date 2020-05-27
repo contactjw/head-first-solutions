@@ -65,6 +65,7 @@ public class GameHelper {
             temp = String.valueOf(alphabet.charAt(column));
 
             alphaCells.add(temp.concat(Integer.toString(row)));
+            x++;
         }
         return alphaCells;
     }
