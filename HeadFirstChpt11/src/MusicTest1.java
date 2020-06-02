@@ -7,8 +7,6 @@ public class MusicTest1 {
         } catch (MidiUnavailableException ex) {
             System.out.println("Sequencer failed.");
         }
-
-
     }
 
     public static void main(String[] args) {
